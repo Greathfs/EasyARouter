@@ -23,6 +23,15 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:text="测试拦截器" />
+        <Button
+            android:id="@+id/interceptor_green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="拦截器操作(绿色通道，跳过拦截器)" />
+
 
         <Button
             android:id="@+id/btn_eventbus"
@@ -73,33 +82,6 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:text="通过URL跳转（webview）" />
-
-        <Button
-            android:id="@+id/interceptor"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:text="拦截器操作(利用重新分组拦截)" />
-
-        <Button
-            android:id="@+id/interceptor1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:text="拦截器操作(利用原有分组)" />
-
-        <Button
-            android:id="@+id/interceptor2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:text="拦截器操作(绿色通道，跳过拦截器)" />
 
         <Button
             android:id="@+id/autoInject"
