@@ -59,4 +59,17 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    if (isNeedHomeModule.toBoolean()) {
+        implementation project(':module_home')
+    }
+    if (isNeedChatModule.toBoolean()) {
+        implementation project(':module_chat')
+    }
+    if (isNeedRecomModule.toBoolean()) {
+        implementation project(':module_recom')
+    }
+    if (isNeedMeModule.toBoolean()) {
+        implementation project(':module_me')
+    }
 }
