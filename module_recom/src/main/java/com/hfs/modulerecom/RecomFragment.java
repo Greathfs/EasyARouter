@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.hfs.libcommon.utils.RouteUtils;
 
-@Route(path = RouteUtils.Recom_Fragment_Main)
+@Route(path = RouteUtils.RECOM_FRAGMENT_MAIN)
 public class RecomFragment extends Fragment {
 
     @Override

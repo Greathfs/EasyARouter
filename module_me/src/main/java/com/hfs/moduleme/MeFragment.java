@@ -11,7 +11,7 @@ import android.widget.Button;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.hfs.libcommon.utils.RouteUtils;
 
-@Route(path = RouteUtils.Me_Fragment_Main)
+@Route(path = RouteUtils.ME_FRAGMENT_MAIN)
 public class MeFragment extends Fragment implements View.OnClickListener {
 
     /**

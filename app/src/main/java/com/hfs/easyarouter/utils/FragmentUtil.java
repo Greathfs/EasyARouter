@@ -13,22 +13,22 @@ import com.hfs.libcommon.utils.RouteUtils;
 public class FragmentUtil {
 
     public static Fragment getHomeFragment() {
-        Fragment fragment = (Fragment) ARouter.getInstance().build(RouteUtils.Home_Fragment_Main).navigation();
+        Fragment fragment = (Fragment) ARouter.getInstance().build(RouteUtils.HOME_FRAGMENT_MAIN).navigation();
         return fragment;
     }
 
     public static Fragment getChatFragment() {
-        Fragment fragment = (Fragment) ARouter.getInstance().build(RouteUtils.Chat_Fragment_Main).navigation();
+        Fragment fragment = (Fragment) ARouter.getInstance().build(RouteUtils.CHAT_FRAGMENT_MAIN).navigation();
         return fragment;
     }
 
     public static Fragment getRecomFragment() {
-        Fragment fragment = (Fragment) ARouter.getInstance().build(RouteUtils.Recom_Fragment_Main).navigation();
+        Fragment fragment = (Fragment) ARouter.getInstance().build(RouteUtils.RECOM_FRAGMENT_MAIN).navigation();
         return fragment;
     }
 
     public static Fragment getMeFragment() {
-        Fragment fragment = (Fragment) ARouter.getInstance().build(RouteUtils.Me_Fragment_Main).navigation();
+        Fragment fragment = (Fragment) ARouter.getInstance().build(RouteUtils.ME_FRAGMENT_MAIN).navigation();
         return fragment;
     }
 }

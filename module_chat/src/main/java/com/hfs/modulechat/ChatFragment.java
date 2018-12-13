@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.hfs.libcommon.utils.RouteUtils;
 
-@Route(path = RouteUtils.Chat_Fragment_Main)
+@Route(path = RouteUtils.CHAT_FRAGMENT_MAIN)
 public class ChatFragment extends Fragment {
 
     @Override

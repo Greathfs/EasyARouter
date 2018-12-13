@@ -12,7 +12,7 @@ import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.hfs.libcommon.utils.RouteUtils;
 
-@Route(path = RouteUtils.Home_Fragment_Main)
+@Route(path = RouteUtils.HOME_FRAGMENT_MAIN)
 public class HomeFragment extends Fragment implements View.OnClickListener {
 
     /**
@@ -136,7 +136,9 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         int id = v.getId();
         if (id == R.id.btn_goto_login) {
             //登录（跨模块跳转Activity）
-            ARouter.getInstance().build(RouteUtils.Me_Login).navigation();
+            ARouter.getInstance().build(RouteUtils.ME_LOGIN).navigation();
+        } else if (id == R.id.btn_test_interceptor) {
+            ARouter.getInstance().build(RouteUtils.CHAT_TEST).navigation();
         }
     }
 
